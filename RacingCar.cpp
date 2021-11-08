@@ -1,13 +1,16 @@
 ﻿#include "iostream"
 using namespace std;
 
-#define ID_LEN 20
-#define MAX_SPD 200
-#define FUEL_STEP 2
-#define ACC_STEP 10
-#define BRK_STEP 10
+
 
 struct Car{
+    enum{
+    ID_LEN = 20,
+    MAX_SPD = 200,
+    FUEL_STEP = 2,
+    ACC_STEP = 10,
+    BRK_STEP = 10
+    };
     char gamerID[ID_LEN];
     int fuelGauge;
     int currSpeed;

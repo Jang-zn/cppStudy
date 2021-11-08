@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAGS "-fexec-charset=CP949")
 
 
-add_executable(cppStudy SelfRep.cpp)
+add_executable(cppStudy ShallowCopy.cpp)

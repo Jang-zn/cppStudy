@@ -8,7 +8,7 @@ public :
     First(char* str){
         strOne = new char[strlen(str)+1];
     }
-    ~First(){
+    virtual ~First(){
         cout<<"~First"<<endl;
         delete[] strOne;
     }
